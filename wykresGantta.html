@@ -1,0 +1,41 @@
+﻿<html>
+  <head>
+	<meta charset="UTF-8" />
+	<title>Gant</title>
+	<link rel="stylesheet" type="text/css" href="css/format.css" />
+	<script src="js/oprogramowanie.js"></script>
+  </head>
+  <body>
+  
+    <br>
+	<h1> &nbsp; &nbsp; Wykres Gantta</h1><br>
+	<select id="sciezki" onchange="zmianaSciezki()">
+		<option value="1">Ścieżka 1</option>
+		<option value="2">Ścieżka 2</option>
+		<option value="3">Ścieżka 3</option>
+		<option value="4">Ścieżka 4</option>
+		<option value="5">Ścieżka 5</option>
+	</select>
+	<br><br>
+	<button onclick="dodajTermin()">Dodaj nowe zadanie</button> &nbsp; &nbsp; 
+	<input id="zadanie" size="50" placeholder="Temat zadania"/> &nbsp; &nbsp; 
+	<select id="czas" onchange="zmianaSciezki()">
+		<option value="1">1 dzień</option>
+		<option value="2">2 dni</option>
+		<option value="3">3 dni</option>
+		<option value="4">4 dni</option>
+		<option value="5">5 dni</option>
+	</select>
+	<br><br>
+	<button onclick="dodajOsobeOdpowiedzialna()">Dodaj osobę odpowiedzialną</button> &nbsp; &nbsp; 
+	<select id="kombiOsoby"></select> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+	<button onclick="dopiszDoKombi()">Dodaj do listy osób</button> &nbsp; &nbsp; 
+	<input id="kto" placeholder="Imię i nazwisko"/>
+	<br><br>
+	<br><br>
+	<div id="ruler"><div id="wskaznikSciezki"></div></div>
+	<div id="kanwa">Brak podanych terminów</div>
+	<div id="osoby">Nie podano osób</div>
+	
+  </body>
+</html>

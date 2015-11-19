@@ -1,0 +1,75 @@
+
+#kanwa {
+	position: absolute; left: 30;
+	width:700; height:200;
+	background-color:yellow;
+	border-top: 1px solid lightgray;
+}
+
+#osoby {
+	position: absolute; left: 740;
+	width:250; height:200;
+	background-color: #EEEE00;
+	border-top: 1px solid lightgray;
+}
+
+#ruler {
+	position: absolute;
+	width:20; height:200;
+	background-color:lightgreen;
+	border-top: 1px solid lightgray;
+}
+
+#wskaznikSciezki {
+	position: absolute; top: 2; left: 2;
+	width: 0; height: 0;				
+	border-top: 8px solid lightgreen;
+	border-bottom: 8px solid lightgreen;
+	border-left: 16px solid black;
+	border-right: 0px solid white;
+}
+
+.punkt {
+	position: absolute; top: 2;
+	width: 0; height: 6;				
+	border-top: 8px solid lightblue;
+	border-bottom: 16px solid lightblue;
+	border-left: 4px solid lightblue;
+	border-right: 100px solid lightblue;
+	border-radius: 6px;
+	font-family: Verdana; 
+	font-size: 10px;
+}
+
+.punktAktywny {
+	position: absolute; top: 2;
+	width: 0; height: 6;				
+	border-top: 8px solid #FF0000;
+	border-bottom: 16px solid #FF0000;
+	border-left: 4px solid #FF0000;
+	border-right: 100px solid #FF0000;
+	border-radius: 6px;
+	font-family: Verdana; 
+	font-size: 10px;
+}
+
+.kolo {
+	position: absolute; top: 2;
+	width: 0; height: 0;				
+	border-top: 12px solid green;
+	border-bottom: 12px solid green;
+	border-left: 12px solid green;
+	border-right: 12px solid green;
+	border-radius: 12px;
+}
+
+.koloAktywne {
+	position: absolute; top: 2;
+	width: 0; height: 0;				
+	border-top: 12px solid orange;
+	border-bottom: 12px solid orange;
+	border-left: 12px solid orange;
+	border-right: 12px solid orange;
+	border-radius: 12px;
+}
+
